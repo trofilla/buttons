@@ -60,35 +60,35 @@ html,body {
     background-color: #e6e6e6;
     border-color: #adadad;
 }
-.btn-default_color_red {
+.btn-default--red {
     background-color: red;
 }
 
-.btn-default_color_blue {
+.btn-default--blue {
     background-color: blue;
 }
 
-.btn-default_color_green {
+.btn-default--green {
     background-color: green;
 }
 
 
 
-.btn-default_lg {
+.btn-default--lg {
     padding: 10px 16px;
     font-size: 18px;
     line-height: 1.3333333;
     border-radius: 6px;
 }
 
-.btn-default_sm {
+.btn-default--sm {
     padding: 5px 10px;
     font-size: 12px;
     line-height: 1.5;
     border-radius: 3px;
 }
 
-.btn-default_xs {
+.btn-default--xs {
     padding: 1px 3px;
     font-size: 9px;
     line-height: 1.5;
