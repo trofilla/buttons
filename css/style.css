@@ -1,0 +1,96 @@
+html,body {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot');
+    src:    url('../fonts/icomoon.eot') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf') format('truetype'),
+        url('../fonts/icomoon.woff') format('woff'),
+        url('../fonts/icomoon.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-airplane:before {
+    content: "\e900";
+}
+.icon-truck:before {
+    content: "\e901";
+}
+.icon-road:before {
+    content: "\e902";
+}
+
+
+
+.btn-default {
+    color: #333;
+    background-color: #18BEBE;
+    border-color: #ccc;
+    font-family: 'icomoon';
+}
+
+.btn-default.focus {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #8c8c8c;
+}
+
+.btn-default:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+.btn-default_color_red {
+    background-color: red;
+}
+
+.btn-default_color_blue {
+    background-color: blue;
+}
+
+.btn-default_color_green {
+    background-color: green;
+}
+
+
+
+.btn-default_lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+.btn-default_sm {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.btn-default_xs {
+    padding: 1px 3px;
+    font-size: 9px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
